@@ -1,0 +1,168 @@
+section {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: 0.15s;
+  z-index: 100000;
+}
+h1{
+  font-size: 12.500vw;
+  position: absolute;
+  color: white;
+  font-family: Forma r;
+  letter-spacing: 0.02em;
+}
+.book_and_button{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin: 10vw 1.5vw;
+  position: fixed;
+  gap: 4vw;
+  z-index: 10;
+  width: 50vw;
+}
+.bt_vid{
+  width: 11.250vw;
+  height: 11.250vw;
+  padding-left: 32vw;
+}
+body, html {
+  background: black;
+  overflow-y: hidden;
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  margin: 0;
+  position: relative;
+}
+.plashka_1,.plashka_2, .plashka_3, .plashka_4 , .plashka_5{
+  width: 100vw;
+  height: 55.833vw;
+  border-radius: 5vw;
+  position: fixed;
+  background-color: black;
+  top: 60vw;
+  z-index: 1000;
+}
+.plash{
+  color: #F2F0F0;
+  font-size: 8vw;
+  font-family: Forma r;
+  font-weight: 500;
+  line-height: 77.918%;
+  width: 45vw;
+  padding: 2vw 5vw;
+  position: relative;
+  top: -27vw;
+}
+.plashh3{
+  color: rgba(242, 240, 240, 0.72);
+  left: 5vw;
+  position: absolute;
+  font-size: 3vw;
+  top: 25vw;
+}
+.plashhka_img, .plashhka2_img, .plashhka3_img, .plashhka4_img,.plashhka5_img{
+  top: 34vw;
+  left: 2vw;
+  width: 39.375vw;
+  position: absolute;
+}
+.plashka_img, .plashka2_img, .plashka3_img, .plashka4_img, .plashka5_img{
+  width: 100vw;
+  height: 32vw;
+  border-radius: 2vw;
+  position: relative;
+  padding: 0;
+}
+.downtext{
+  position: relative;
+  text-align: left;
+  width: 52vw;
+  top: -22vw;
+  left: 45vw;
+}
+.movement{
+  transform: translateY(-60vw);
+  transition: transform 1s ease-in;
+}
+.movement-r{
+  transform: translateY(60vw);
+  transition: transform 1s ease-in;
+}
+h3{
+ font-family: Forma r;
+ font-weight: 400;
+ font-size: 1.389vw;
+ text-align: center;
+ letter-spacing: 0.02em;
+ line-height: 1.389vw;
+ color: white;
+ flex: none;
+ z-index: 20;
+}
+.logo_grey{
+  fill: white;
+  width: 5.236vw;
+  height: 4.236vw;
+  left: 2.847vw;
+}
+.game_1, .game_2{
+  width: 5.056vw;
+}
+
+
+/* * {
+  cursor: none;
+} */
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1vw 1.5vw;
+  width: 97vw;
+  height: 5vw;
+  position: fixed;
+  gap: 4vw;
+  z-index: 10;
+}
+.menu_bt{
+  display: none;
+}
+.pages{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 25vw 1vw;
+  gap: 1vw;
+}
+.page_1,.page_2,.page_3,.page_4,.page_5,.page_6,.page_7{
+  height: 50vh;
+  padding-right: 0vw;
+}
+.breadcrumbs{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ width: 25.889vw;
+ height: 3.611vw;
+ gap: 0vw;
+}
+.breadcrumbs_book,.breadcrumbs_merch, .breadcrumbs_place, .breadcrumbs_events{
+ align-items: center;
+ padding: 0vw 2.014vw;
+ left: 3.056vw;
+ top: 1.736vw;
+ background-color: #343434;
+ border-radius: 3.403vw;
+ backdrop-filter: blur(10vw);
+}
+.breadcrumbs_space{
+  background-color: white;
+}
+.breadcrumbs_space h3{
+  color: black;
+}

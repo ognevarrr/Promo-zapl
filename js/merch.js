@@ -1,0 +1,72 @@
+$(document).ready(function(){
+  $(".itemmerch_1").click(function(){
+     $(".white_plashka").addClass('moveplashka');
+  });
+  $(".white_plashka").click(function(){
+     $(".white_plashka").removeClass('moveplashka');
+  });
+  $(".itemmerch_2").click(function(){
+     $(".white_plashka_1").addClass('moveplashka');
+  });
+  $(".white_plashka_1").click(function(){
+     $(".white_plashka_1").removeClass('moveplashka');
+  });
+  $(".itemmerch_3").click(function(){
+     $(".white_plashka_2").addClass('moveplashka');
+  });
+  $(".white_plashka_2").click(function(){
+     $(".white_plashka_2").removeClass('moveplashka');
+  });
+  $(".itemmerch_4").click(function(){
+     $(".white_plashka_3").addClass('moveplashka');
+  });
+  $(".white_plashka_3").click(function(){
+     $(".white_plashka_3").removeClass('moveplashka');
+  });
+  $(".itemmerch_5").click(function(){
+     $(".white_plashka_4").addClass('moveplashka');
+  });
+  $(".white_plashka_4").click(function(){
+     $(".white_plashka_4").removeClass('moveplashka');
+  });
+  $(".itemmerch_6").click(function(){
+     $(".white_plashka_5").addClass('moveplashka');
+  });
+  $(".white_plashka_5").click(function(){
+     $(".white_plashka_5").removeClass('moveplashka');
+  });
+  $(function(){
+  $('.order').click(function(){
+    $('.forma').show(250),
+    $('.background').show(200);
+  });
+  });
+  $(function(){
+  $('.register').click(function(){
+    $('.question').show(250),
+    $('.background').show(200);
+  });
+});
+$(function(){
+  $('.continue').click(function(){
+    $('.question').hide(200),
+    $('.forma').show(250);
+});
+});
+$(function(){
+  $('.cross').click(function(){
+    $('.forma').hide(200),
+    $('.question').hide(200),
+    $('.background').hide(250);
+  });
+});
+
+$(function(){
+  $('.complete').click(function(){
+    $('.forma').hide(200),
+    $('.forma_after').show(250),
+    $('.forma_after').delay(2900).hide(200),
+    $('.background').delay(3200).hide(200);
+  });
+});
+});

@@ -1,0 +1,37 @@
+$(document).ready(function(){
+  $(".page_1").click(function(){
+    $(".plashka_1").removeClass('movement-r');
+     $(".plashka_1").addClass('movement');
+  });
+  $(".plashka_1").click(function(){
+    $(".plashka_1").addClass('movement-r');
+  });
+  $(".page_2").click(function(){
+    $(".plashka_2").removeClass('movement-r');
+    $(".plashka_2").addClass('movement');
+  });
+  $(".plashka_2").click(function(){
+    $(".plashka_2").addClass('movement-r');
+  });
+  $(".page_3").click(function(){
+    $(".plashka_3").removeClass('movement-r');
+    $(".plashka_3").addClass('movement');
+  });
+  $(".plashka_3").click(function(){
+    $(".plashka_3").addClass('movement-r');
+  });
+  $(".page_4").click(function(){
+    $(".plashka_4").removeClass('movement-r');
+    $(".plashka_4").addClass('movement');
+  });
+  $(".plashka_4").click(function(){
+    $(".plashka_4").addClass('movement-r');
+  });
+  $(".page_5").click(function(){
+    $(".plashka_5").removeClass('movement-r');
+    $(".plashka_5").addClass('movement');
+  });
+  $(".plashka_5").click(function(){
+    $(".plashka_5").addClass('movement-r');
+  });
+});

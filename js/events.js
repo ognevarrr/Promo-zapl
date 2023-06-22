@@ -1,0 +1,30 @@
+$(document).ready(function(){
+  $(".poster_1").click(function(){
+    $(".white_plashka").removeClass('moveplashkarev');
+    $(".white_plashka").addClass('moveplashka');
+  });
+  $(".white_plashka").click(function(){
+    $(".white_plashka").addClass('moveplashkarev');
+  });
+  $(".poster_2").click(function(){
+      $(".white_plashka_1").removeClass('moveplashkarev');
+      $(".white_plashka_1").addClass('moveplashka');
+  });
+  $(".white_plashka_1").click(function(){
+     $(".white_plashka_1").addClass('moveplashkarev');
+  });
+  $(".poster_3").click(function(){
+      $(".white_plashka_2").removeClass('moveplashkarev');
+      $(".white_plashka_2").addClass('moveplashka');
+  });
+  $(".white_plashka_2").click(function(){
+     $(".white_plashka_2").addClass('moveplashkarev');
+  });
+  $(".poster_4").click(function(){
+      $(".white_plashka_3").removeClass('moveplashkarev');
+      $(".white_plashka_3").addClass('moveplashka');
+  });
+  $(".white_plashka_3").click(function(){
+     $(".white_plashka_3").addClass('moveplashkarev');
+  });
+});
