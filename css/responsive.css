@@ -202,7 +202,7 @@
   .itemmerch_1 img,.itemmerch_2 img, .itemmerch_3 img, .itemmerch_4 img, .itemmerch_5 img, .itemmerch_6 img{
     width: 100vw;
   }
-  
+
   .itemmerch_2{
     left: 56vw;
     top: 51vw;
@@ -322,6 +322,46 @@
 }
 
 @media all and (max-width: 420px) {
+  .hover_11{
+    display: block;
+    top: 80vw;
+    left: -32vw;
+    z-index: 1000;
+  }
+  .hover_22{
+    display: block;
+    top: 68vw;
+    left: 48vw;
+    z-index: 1000;
+  }
+  .hover_33{
+    display: block;
+    top: -44vw;
+    left: 17vw;
+    z-index: 1000;
+  }
+  .mainimg1{
+    display: block;
+    width: 178vw;
+    height: 100vh;
+    z-index: -2000;
+    top: 100%;
+    animation: img_main 10s infinite alternate;
+    z-index: -1;
+  }
+
+
+  @keyframes img_main {
+    0%{
+      transform: scale(2);
+    }
+    10%{
+      transform: scale(1),translateX(20vw);
+    }
+    20%{
+      transform: scale(3),translateX(500vw);
+    }
+  }
   html,body{
     overflow-y: hidden;
   }
