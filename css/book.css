@@ -5,6 +5,29 @@ section {
   transition: 0.15s;
   z-index: 100000;
 }
+.menu-fullscreen {
+  z-index: 500;
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+}
+.menu-mobile-text-block {
+  position: absolute;
+  left: 14px;
+  bottom: 62px;
+}
+.menu-mobile-text {
+  font-family: Forma r;
+  font-size: 60px;
+  line-height: 86%;
+  color: #FFFFFF;
+  transition: 0.05s ease-in-out;
+}
+.menu-mobile-text:active {
+  opacity: 60%;
+  transition: 0.05s ease-in-out;
+}
 h1{
   font-size: 12.500vw;
   position: absolute;

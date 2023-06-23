@@ -145,27 +145,29 @@ p{
   mix-blend-mode: luminosity;
   z-index: 100000;
 }
-.hover_1{
+.hover_11, .hover_22, .hover_33{
+  position: absolute;
+  width: 97.969vw;
+  height: 97.969vw;
+  mix-blend-mode: luminosity;
+  display: none;
+  z-index: 100000;
+}
+.hover_1,.hover_11{
   top: 41.198vw;
   left: -10vw;
   background-image: url("../images/merch.svg");
   background-size: cover;
 }
-.hover_2{
+.hover_2,.hover_22{
   top: 40.198vw;
   left: 70.646vw;
   background-image: url("../images/posters.svg");
   background-size: cover;
 }
-.hover_3{
+.hover_3, .hover_33{
   top: -12.198vw;
   left: 50.646vw;
-  background-image: url("../images/book.svg");
-  background-size: cover;
-}
-.hover_4{
-  top: -20.198vw;
-  left: -12.646vw;
   background-image: url("../images/space.svg");
   background-size: cover;
 }
