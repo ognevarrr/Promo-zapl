@@ -1,15 +1,6 @@
 /* MAP */
-@media all and (orientation: landscape){
-  .forrotate{display: none;}
-}
-/* Перевёртыш */
-@media all and (orientation: portrait){
-  body{
-    width: 100%;
-    overflow: hidden;
-  }
-  .forrotate{display: block;}
-}
+
+
 @media all and (min-width: 1366px) {
   .items{
     position: absolute;
