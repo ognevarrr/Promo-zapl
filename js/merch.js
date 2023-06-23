@@ -51,16 +51,8 @@ $(function(){
   $('.continue').click(function(){
     $('.question').hide(200),
     $('.forma').show(250);
-});
-});
-$(function(){
-  $('.cross').click(function(){
-    $('.forma').hide(200),
-    $('.question').hide(200),
-    $('.background').hide(250);
   });
 });
-
 $(function(){
   $('.complete').click(function(){
     $('.forma').hide(200),

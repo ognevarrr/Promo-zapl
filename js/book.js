@@ -34,7 +34,4 @@ $(document).ready(function(){
   $(".plashka_5").click(function(){
     $(".plashka_5").addClass('movement-r');
   });
-  $(".menu_bt").click(function(){
-    $(".menu-fullscreen").css('display','block');
-  });
 });
