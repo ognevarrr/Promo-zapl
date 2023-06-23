@@ -29,17 +29,6 @@ section {
   z-index: 20;
   text-decoration: none;
 }
-.menu-mobile-text {
-  font-family: Forma r;
-  font-size: 60px;
-  line-height: 86%;
-  color: #FFFFFF;
-  transition: 0.05s ease-in-out;
-}
-.menu-mobile-text:active {
-  opacity: 60%;
-  transition: 0.05s ease-in-out;
-}
 h1{
   font-size: 12.500vw;
   position: absolute;
@@ -147,11 +136,6 @@ h3{
 .game_1, .game_2{
   width: 5.056vw;
 }
-
-
-/* * {
-  cursor: none;
-} */
 .header{
   display: flex;
   justify-content: space-between;
