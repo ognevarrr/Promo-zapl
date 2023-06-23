@@ -1,9 +1,5 @@
-
 /* MAP */
 @media all and (min-width: 1366px) {
-  .mobile {
-    display: none;
-  }
   .items{
     position: absolute;
     height: 100vh;
@@ -13,11 +9,6 @@
   }
 }
 @media all and (min-width: 1920px) {
-  .hover_1,.hover_2,.hover_3,.hover_4 {
-    transform: scale(1.2);
-    margin-left: 310px;
-    margin-top: -200px;
-  }
   .itemmerch_1 img,.itemmerch_2 img, .itemmerch_3 img, .itemmerch_4 img, .itemmerch_5 img, .itemmerch_6 img{
     width: 45vw;
   }
@@ -28,8 +19,22 @@
   }
 }
 
-
 @media all and (min-width: 768px) and (max-width: 1024px) {
+  .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -0.5vw 1.5vw;
+    width: 97vw;
+    height: 15vw;
+    position: fixed;
+    gap: 0vw;
+  }
+  .items{
+    top: 10vw;
+    position: absolute;
+    scale: 1.2;
+  }
   .menu_bt{
     display: block;
     width: 11vw;
@@ -72,14 +77,14 @@
     position: fixed;
     left: 0vw;
     width: 100vw;
-    top: 150vw;
+    top: 220vw;
     height: 100vh;
     background-color: #F2f2f7;
     border-radius: 5vw 5vw 5vw 0vw;
     z-index: 300;
   }
   .moveplashka{
-    transform: translateY(-130vw);
+    transform: translateY(-200vw);
     transition: transform 1s ease-in-out;
   }
   .plashkaimg1,.plashkaimg2, .plashkaimg3, .plashkaimg4, .plashkaimg5, .plashkaimg6{
@@ -119,57 +124,6 @@
     font-size: 4vw;
     font-size: 4vw;
     line-height: 4vw;
-  }
-  .mainimg1{
-    display: block;
-    width: 178vw;
-    height: 178vw;
-    z-index: -2000;
-    top: 100%;
-  }
-  .big_text_1{
-    font-size: 15vw;
-    line-height: 10vw;
-    text-align: center;
-    width: 100vw;
-    top: 40vw;
-    left: 0vw;
-  }
-  .hover_1_mobile{
-    display: block;
-    top: 71vw;
-    left: -25vw;
-    z-index: 1000;
-  }
-  .hover_2_mobile{
-    display: block;
-    top: 68vw;
-    left: 48vw;
-    z-index: 1000;
-  }
-  .hover_3_mobile{
-    display: block;
-    top: -28vw;
-    left: 35vw;
-    z-index: 1000;
-  }
-  .hover_4_mobile{
-    display: block;
-    top: -8vw;
-    left: -23vw;
-    z-index: 1000;
-    width: 70vw;
-    height: 70vw;
-  }
-  .header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0.2vw 1.5vw;
-    width: 97vw;
-    height: 15vw;
-    position: fixed;
-    gap: 0vw;
   }
   .breadcrumbs{
     display: none;
@@ -213,25 +167,7 @@
     left: 225vw;
     top: 11vw;
   }
-  .poster_1 img,.poster_2 img, .poster_3 img, .poster_4 img{
-    width: 70vw;
-  }
-  .poster_1{
-    left: -16vw;
-    top: 39vw;
-  }
-  .poster_2{
-    left: 94vw;
-    top: -14vw;
-  }
-  .poster_3{
-    left: 158vw;
-    top: 55vw;
-  }
-  .poster_4{
-    left: 181vw;
-    top: -6vw;
-  }
+
   .tishorts{
     bottom: 2.5vw;
     font-size: 17.5vw;
@@ -240,6 +176,17 @@
 }
 
 @media all and (max-width: 767px) {
+  .menu_bt{
+    display: block;
+    width: 11vw;
+    height: 11vw;
+    right: 1.5vw;
+    top: 1.5vw;
+    position: fixed;
+  }
+  .breadcrumbs{
+    display: none;
+  }
   .items{
     top: 23vw;
     left: 11vw;
@@ -266,61 +213,11 @@
     transform: translateY(-170vw);
     transition: transform 1s ease-in-out;
   }
-
-  .mainimg1{
-    display: block;
-    width: 170vw;
-    height: 170vw;
-    z-index: -2000;
-    top: 100%;
-    transform: rotate(90deg);
-  }
-  .big_text_1{
-    font-size: 15vw;
-    line-height: 10vw;
-    text-align: center;
-    width: 100vw;
-    top: 40vw;
-    left: 0vw;
-  }
-  .hover_1_mobile{
-    display: block;
-    top: 91vw;
-    left: -25vw;
-    z-index: 1000;
-  }
-  .hover_2_mobile{
-    display: block;
-    top: 98vw;
-    left: 48vw;
-    z-index: 1000;
-  }
-  .hover_3_mobile{
-    display: block;
-    top: -28vw;
-    left: 35vw;
-    z-index: 1000;
-  }
-  .hover_4_mobile{
-    display: block;
-    top: -8vw;
-    left: -23vw;
-    z-index: 1000;
-    width: 70vw;
-    height: 70vw;
-  }
 }
 
-@media all and (max-width: 420px) {
+@media all and (min-width: 420px) and (max-width: 767px) {
   html,body{
     overflow-y: hidden;
-  }
-  .mainimg1{
-    display: block;
-    width: 100vw;
-    height: 178vw;
-    z-index: -2000;
-    top: 100%;
   }
   .items img{
     position: absolute;
@@ -329,6 +226,17 @@
     top: -32vw;
     left: -48vw;
     transform: scale(1.7);
+  }
+  .menu_bt{
+    display: block;
+    width: 11vw;
+    height: 11vw;
+    right: 1.5vw;
+    top: 1.5vw;
+    position: fixed;
+  }
+  .breadcrumbs{
+    display: none;
   }
   .tishorts{
     bottom: 0.5vw;
@@ -354,12 +262,7 @@
     transform: translateY(-100vh);
     transition: transform 1s ease-in-out;
   }
-  .plashkaimg1,.plashkaimg2, .plashkaimg3, .plashkaimg4, .plashkaimg5, .plashkaimg6{
-    position: relative;
-    width: 80vw;
-    bottom: 9vw;
-    left: 10vw;
-  }
+
   .plashkaimg4{
     width: 78vw;
     bottom: 1vw;
@@ -392,52 +295,11 @@
     font-size: 4vw;
     line-height: 4vw;
   }
-  .mainimg1{
-    display: block;
-    width: 178vw;
-    height: 178vw;
-    z-index: -2000;
-    top: 100%;
-  }
-  .big_text_1{
-    font-size: 15vw;
-    line-height: 10vw;
-    text-align: center;
-    width: 100vw;
-    top: 40vw;
-    left: 0vw;
-  }
-  .hover_1_mobile{
-    display: block;
-    top: 71vw;
-    left: -25vw;
-    z-index: 1000;
-  }
-  .hover_2_mobile{
-    display: block;
-    top: 68vw;
-    left: 48vw;
-    z-index: 1000;
-  }
-  .hover_3_mobile{
-    display: block;
-    top: -28vw;
-    left: 35vw;
-    z-index: 1000;
-  }
-  .hover_4_mobile{
-    display: block;
-    top: -8vw;
-    left: -23vw;
-    z-index: 1000;
-    width: 70vw;
-    height: 70vw;
-  }
   .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0.2vw 1.5vw;
+    margin: 1vw 1.5vw;
     width: 97vw;
     height: 15vw;
     position: fixed;
@@ -484,24 +346,5 @@
   .itemmerch_6{
     left: 247vw;
     top: 26vw;
-  }
-  .poster_1 img,.poster_2 img, .poster_3 img, .poster_4 img{
-    width: 70vw;
-  }
-  .poster_1{
-    left: -16vw;
-    top: 39vw;
-  }
-  .poster_2{
-    left: 94vw;
-    top: -14vw;
-  }
-  .poster_3{
-    left: 158vw;
-    top: 55vw;
-  }
-  .poster_4{
-    left: 181vw;
-    top: -6vw;
   }
 }
