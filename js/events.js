@@ -27,4 +27,7 @@ $(document).ready(function(){
   $(".white_plashka_3").click(function(){
      $(".white_plashka_3").addClass('moveplashkarev');
   });
+  $(".white_plashka_3").click(function(){
+     $(".white_plashka_3").addClass('moveplashkarev');
+  });
 });

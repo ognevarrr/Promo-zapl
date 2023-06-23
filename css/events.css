@@ -37,6 +37,31 @@ h3{
  flex: none;
  z-index: 20;
 }
+.h1_h3{
+  font-family: Forma r;
+  font-weight: 400;
+  font-size: 1.389vw;
+  text-align: center;
+  letter-spacing: 0.02em;
+  line-height: 3.389vw;
+  color: white;
+  flex: none;
+  z-index: 20;
+  text-decoration: none;
+}
+.h1_h3-1{
+  font-family: Forma r;
+  font-weight: 400;
+  font-size: 1.389vw;
+  text-align: center;
+  letter-spacing: 0.02em;
+  line-height: 3.389vw;
+  color: black;
+  flex: none;
+  z-index: 20;
+  text-decoration: none;
+}
+
 .logo_grey{
   fill: white;
   width: 5.236vw;

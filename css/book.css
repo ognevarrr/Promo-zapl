@@ -5,17 +5,29 @@ section {
   transition: 0.15s;
   z-index: 100000;
 }
-.menu-fullscreen {
-  z-index: 500;
-  background-color: black;
-  width: 100vw;
-  height: 100vh;
-  display: none;
+.h1_h3{
+  font-family: Forma r;
+  font-weight: 400;
+  font-size: 1.389vw;
+  text-align: center;
+  letter-spacing: 0.02em;
+  line-height: 3.389vw;
+  color: white;
+  flex: none;
+  z-index: 20;
+  text-decoration: none;
 }
-.menu-mobile-text-block {
-  position: absolute;
-  left: 14px;
-  bottom: 62px;
+.h1_h3-1{
+  font-family: Forma r;
+  font-weight: 400;
+  font-size: 1.389vw;
+  text-align: center;
+  letter-spacing: 0.02em;
+  line-height: 3.389vw;
+  color: black;
+  flex: none;
+  z-index: 20;
+  text-decoration: none;
 }
 .menu-mobile-text {
   font-family: Forma r;
@@ -183,9 +195,6 @@ h3{
  border-radius: 3.403vw;
  backdrop-filter: blur(10vw);
 }
-.breadcrumbs_space{
+.breadcrumbs_place{
   background-color: white;
-}
-.breadcrumbs_space h3{
-  color: black;
 }

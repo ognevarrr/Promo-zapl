@@ -37,6 +37,9 @@ h3{
   font-size: 2.083vw;
   color: #D1D0D6;
 }
+.forrotate{
+  display: none;
+}
 
 /* СТИЛИЗАЦИЯ КУРСОРА */
 .cursor {
